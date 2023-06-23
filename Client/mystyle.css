@@ -1,0 +1,147 @@
+body {
+    background-image:url("images/bgimg.jpg");
+    background-blend-mode: lighten;
+    color:#000080;
+    font-size:18px;
+}
+
+header {
+   
+  background:#ab0b6270;
+  border: 5px solid #CADC72; 
+  text-shadow: -3px -1px 2px #13111199;
+  padding-top:20px;
+  border-radius: 10px 10px 10px 10px;
+} 
+
+.container {
+  text-align:center;
+  margin:20px 40px;
+  background:#ff8fab; 
+  border: 3px solid #CADC72;
+  border-radius: 10px 10px 10px 10px;
+}
+
+h1{
+  color:#ab0b62;
+  font-Size:26px;
+  font-family: 'Leckerli One';
+}
+/* This is the Outdoor/Indoor */
+
+nav {
+display:flex;
+justify-content:space-evenly;
+margin-bottom:20px;
+}
+
+a {
+  text-decoration:none;
+  background-color:#CADC72;
+  color:#ab0b62;
+  font-family:comfortaa;
+  border:3px solid #ab0b62;
+  border-radius: 10px 10px 10px 10px;
+}
+
+a:hover{
+  background-color: #ab0b62;
+  color:#CADC72;
+  animation-name:doors;
+  animation-duration: 1s;
+}
+  @keyframes doors{
+    from {background-color:#CADC72}
+    to {background-color:#ab0b62}
+}
+/* This is the main */
+
+main{ 
+  display:flex;
+  flex-direction:column;
+}
+
+section {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top:2.5rem;
+}
+
+/* This is the start of the <section> of the first row */
+
+.one{
+  width:200px;
+  height:300px;
+  border-radius: 10px 10px 10px 10px;
+  border: 5px solid #ab0b62;
+}
+.top{
+  background-color: #faebd7;
+  font-size:18px;
+  font-family:'Comfortaa';
+  border: 5px solid #ab0b62;
+  border-radius: 10px 10px 10px 10px;
+}
+
+h2 {
+  text-align:center;
+}
+
+ul {
+  list-style-type:none;
+  text-align:center;
+  width:50%;
+  margin:auto; 
+  border: 3px dotted #CADC72;
+
+}
+
+ul p {
+  font-weight:bold;
+}
+
+/* This is the start of the <section> second row */
+
+figure {
+  text-align:center;
+  width:200px;
+  height:200px;
+  padding-top:100px;
+  background-color: #CADC7280;
+  border-radius: 10px 10px 10px 10px;
+  border: 5px solid #ab0b62;
+}
+
+.two{
+  width:180px;
+  height:150px;
+}
+
+figcaption {
+  text-align:center;
+  font-family:'Leckerli One';
+}
+
+ol{
+  width:75%;
+  padding-top:50px;
+  padding-left:100px;
+  background-color: #faebd7;
+  font-family:'Comfortaa';
+  border: 5px solid #ab0b62;
+  border-radius: 10px 10px 10px 10px;
+}
+/* This is the footer */
+footer {
+  text-align:center;
+  background:#ff8fab;
+  color:#ab0b62;
+  font-family:'Leckerli One';
+  font-size:22px;
+  text-shadow: -3px -1px 2px rgba(19,17,17,0.6);
+  border-radius: 10px 10px 10px 10px;
+  border: 5px solid #CADC72;
+}
+
+
